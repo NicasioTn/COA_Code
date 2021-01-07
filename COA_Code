@@ -1,0 +1,14 @@
+# COA_Code
+
+Hardwired program
+  จะต้องต่อเป็นวงจร ในแต่ละการทำงานเช่น สร้างการบวก ก็มีแค่การบวก สร้างลบก็มีแค่การลบ
+ (Input) Data    >>>> Sequence Arithmetic and Lagic Function >>>>>  (Output) result  ____1
+
+progarmming in sorfware
+  สามารถเขียนโปรแกรมใส่ใน Ship 1 ตัวแล้วสามารถเขียนใส่ได้หลายโปรแกรม เช่น บวก ลบ คูณ หาร ใน 1 Ship
+  ส่วนประกอบ 
+    Instructions     >>>>        (Input) Data    >>>>  General-Purpose Arithmetic and Lagic Function >>>> (Output) result  ____1_2_3
+                  controsignal
+   
+ 
+ 
