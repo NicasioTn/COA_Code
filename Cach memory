@@ -1,6 +1,24 @@
+#14/01/2564 Cache Memory
 
-Location
+-Location
 หน่วยความจำข้าางใน มี Register (ทำงานกับ CPU), Cache Memory, Main Memory 
 
-Unit of transfer : หน่วยในการถ่ายเท อ่านหรือบันทึกข้อมูล
+-Unit of transfer : หน่วยในการถ่ายเท อ่านหรือบันทึกข้อมูล
+
+-Method of accessing 
+  Sequential access 
+    เก็บข้อมูลอย่างเป็นลำดับ เช่น แผ่น CD : เวลาเก็ฐข้อมูลจะนำไปเก็บที่วงกลมด้านในก่อนและตัวสุดท้ายจะอยู่ที่รอบวงข้างนอกคือข้อมูลล่าสุด
+  Direct access
+    เช่น HDD SSD เป็นการอ่านที่สามารถเปลี่ยนตำแหน่งในการอ่านได้ไม่จำเป็ฯต้องตามลำดับ
+  Random access 
+    เข้าถึงแบบสุม ถ้ารู้ตำแหน่งเข้าไปอ่านได้เลย
+  Note : Access time ระยะเวลาที่ใช้ในการอ่านหรือบันทึกข้อมูลเริ่ม Address จนถึง write and save
+
+-Transfer rate 
+  Racfom access memory transfer rate = 1/cycle time
+ 
+              Volatile            and        Non-Volatile
+เช่น Ram,Cache Memory, Mainmemory        เช่น HDD , Flash Drive, CD
+
+Note : การเข้าถึงข้อมูลด้วยความเร็ว >> ราคาจะแพง และ จำแหล่งแหล่งข้อมูลเยอะจะเข้าถึงช้า แต่ >> ราคาต่ำ  แต่เมื่อ แหล่งข้อมูลใหญ่ยิ่งต้างการ >> การเข้าถึงข้อมูลอย่างรวดเร็ว
 
